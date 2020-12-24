@@ -1,0 +1,11 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.2",
+        "aws/aws-sdk-php": "^3.154"
+    },
+    "autoload":{
+        "psr-4": {
+            "EditorKM\\": "lib"
+        }
+    }
+}

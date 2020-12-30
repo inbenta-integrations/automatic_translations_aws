@@ -35,23 +35,47 @@ Here is the list of additional content attributes considered:
 
  
 ### AWS Account
-The first thing required is an AWS Account. If you do not have an account yet, it can be created [here](https://portal.aws.amazon.com/billing/signup#/start). If you already have an account, sign in.
+The first thing required is an AWS Account. If you do not have an account yet, it can be created [here](https://portal.aws.amazon.com/billing/signup#/start):
+
+![01](img_instructions/01.png)
+
+If you already have an account, sign in.
+
+![02](img_instructions/02.png)
 
 #### Identity and Access Management (IAM)
 
 The next step is to get the Access Key ID and Secret Access Key. In order to do that, you need to create a user and assign it the proper permissions.
 
 * In the [“IAM” main screen](https://console.aws.amazon.com/iam/), click on **Access management → Users**.
+
+![03](img_instructions/03.png)
 * Click on **Add user**.
+
+![04](img_instructions/04.png)
 * Enter a **user name** and select **Programmatic access**, for the **Access type**. This is used to enable the access key ID and secret access key.
+
+![05](img_instructions/05.png)
 * Select an existing user group or add a new one.
+
+![06](img_instructions/06.png)
 * If you are creating a group, click on **Create group** (or edit option as well).
 * Select the policies **TranslateFullAccess** and **TranslateReadOnly**.
+
+![07](img_instructions/07.png)
 * Add tags to help organize the users.
+
+![08](img_instructions/08.png)
+
+![09](img_instructions/09.png)
 * Once the user is created you can see the **Access key ID** and **Secret access key**.
+
+![10](img_instructions/10.png)
 
 #### Translation Metrics
 Once everything is properly configured, you can see the metrics, on the [Amazon Translation Service](https://console.aws.amazon.com/translate/home) screen. [Here](https://docs.aws.amazon.com/translate/latest/dg/what-is-limits.html) are the limits to keep in mind.
+
+![11](img_instructions/11.png)
 
 ### Prepare your Inbenta Instances
 
